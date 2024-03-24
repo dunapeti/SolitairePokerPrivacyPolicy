@@ -10,13 +10,14 @@ I hereby state, to the best of my knowledge and belief, that I have not programm
 
 ### Explanation of permissions requested in the app
 
-I set a custorm `AndroidManifest.xml` file in unity and removed the following permissions:
-  \<uses-permission android:name="android.permission.FOREGROUND_SERVICE" tools:node="remove" /><br>  
+I set a custorm `AndroidManifest.xml` file in unity and removed the following permissions:<br>
+  \<uses-permission android:name="android.permission.FOREGROUND_SERVICE" tools:node="remove" /><br>
   \<uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" tools:node="remove" /><br>
   \<uses-permission android:name="android.permission.POST_NOTIFICATIONS" tools:node="remove" /><br>
   \<uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" tools:node="remove" /><br>
   \<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" tools:node="remove" /><br>
   \<uses-permission android:name="${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" tools:node="remove" /><br>
+  
 So the app requests no permissions at all.
 Please notify me if the app requests any permission which is added by unity or gradle, so I can remove it.
 
